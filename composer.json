@@ -1,0 +1,23 @@
+{
+    "name": "rtoledof/analizer",
+    "description": "The code analizer process the log to manage the logs from remote resource.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Rtoledof\\Analyzer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rolando Toledo Fernandez",
+            "email": "rtf@rolandossolutions.com"
+        }
+    ],
+    "minimum-stability": "beta",
+    "require": {
+        "php": "7.3.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    }
+}
